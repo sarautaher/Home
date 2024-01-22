@@ -81,6 +81,7 @@ top:50%;
 @media (max-width:575.98px) {
     .col-md-3{
         width: 25%;
+        font-size: 10px;
     }
     .col-md-6{
         width: 50%;
@@ -99,7 +100,7 @@ top:50%;
 
 .countDay{
     border: 1px solid #fff;
-    font-size: 30px;
+    font-size: 20px;
 }
 #Contact .icon {
     border: 1px solid #000;
