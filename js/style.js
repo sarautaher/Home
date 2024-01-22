@@ -45,10 +45,10 @@ let day=Math.floor(countchages/(1000*24*60*60));
 let hour=Math.floor((countchages%(1000*(24*60*60)))/(1000*3600));
 let min=Math.floor((countchages %(1000*3600))/(1000*60));
 let sec=Math.floor((countchages%(1000*60))/1000);
-$('.day').html(`${day}D`);
-$('.hour').html(`${hour}H`);
-$('.min').html(`${min}M`);
-$('.sec').html(`${sec}S`);
+$('.day').html(`${day}`);
+$('.hour').html(`${hour}`);
+$('.min').html(`${min}`);
+$('.sec').html(`${sec}`);
 if(countchages<=0){
     $("#count").html('<h1 class=" text-danger text-center">Timed out</h1>')
 }
