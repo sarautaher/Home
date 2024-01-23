@@ -13,14 +13,12 @@
     z-index: 999;
     display: flex;
  }
- .list_Home ul{
-list-style: none;
- }
- .list_Home li{
+ a{
+    text-decoration: none;
     color:#fff;
     font-size: 30px;
  }
- .list_Home li:hover{
+ a:hover{
     color: #ed6020;
  }
 .home{
@@ -36,10 +34,11 @@ list-style: none;
     position: fixed;
     left: 0px;
     z-index: 666;
+    background-color: #000;
 }
 .list_Home{ 
     top: 0;
-    background-color: #000;
+
     float: left;
 }
 #ToggleBtn{
@@ -83,10 +82,7 @@ top:50%;
         width: 25%;
         font-size: 10px;
     }
-    .col-md-6{
-        width: 50%;
-        padding: 20px;
-    }
+    
 }
 #countBackg{
    position: absolute;
